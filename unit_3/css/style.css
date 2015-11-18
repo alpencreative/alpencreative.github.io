@@ -1,10 +1,29 @@
 body {
-	background: url(images/donnertour.jpg);
+	background: url(http://alpencreative.github.io/unit_3/images/donnertour.jpg);
 	background-size: cover;
 }
 h1 {
-	color: pink;
+	color: #ff66ae;
 }
 p {
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+br {
+	width: 500px;
+}
+#videosection {
+	background-color: rgba(255,255,255,.9);
+	width: 800px;
+}
+.videoelement {
 
+}
+.videodescription {
+	font-size: 16px;
+	color: white;
+	padding: 15px;
+	width: 470px;
 }
