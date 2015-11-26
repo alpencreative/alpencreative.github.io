@@ -1,6 +1,11 @@
 body {
 	background: url(http://alpencreative.github.io/unit_3/images/donnertour.jpg);
-	background-size: cover;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+header {
+	height: 90vh;
+	padding: 25vh;
 }
 h1 {
 	color: #ff66ae;
@@ -8,18 +13,17 @@ h1 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	background-color: black;
-	color: white;
-	text-align: center;
-}
-br {
-	width: 500px;
+	color: #888;
+	text-align: left;
 }
 #videosection {
 	background-color: rgba(255,255,255,.9);
-	width: 800px;
+	/*width: 800px;*/
 }
 .videoelement {
-
+	width: 50%;
+	height: 0;
+	padding-bottom: 50%;
 }
 .videodescription {
 	font-size: 16px;
