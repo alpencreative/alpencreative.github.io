@@ -180,18 +180,36 @@ span {
 .videoelement {
 	display: inline-table;
 	background-color: #333;
-	padding:20px;
-	margin: .8em;
+	padding: 15px;
+	margin: .5em;
 	width: 500px;
-	/*height:281px;*/
+	height: 450px;
 }
 .videodescription {
 	font-size: 16px;
 	color: #EEE;
 	width: 445px;
-	height: 200px;
-	margin: 0;
+	height: 160px;
+	margin: 0px;
 	overflow: auto;
+}
+.videoinfo {
+	background-color: #222;
+	/*height: 35px;*/
+	margin: 5px 0 0 0;
+}
+.videolinks {
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 10px;
+	font-size: .8em;
+}
+.postdate {
+	background: none;
+	padding: 5px 15px;
+	margin: 0;
+	float: right;
+	font-size: .8em;
 }
 
 
