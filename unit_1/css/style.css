@@ -1,6 +1,10 @@
 body {
-	background-color: #222222;
+	background: url("images/donnertour.jpg");
+	background-size: cover;
 }
-h1, p {
-	color: purple;
+h1 {
+	color: pink;
+}
+p {
+	
 }
